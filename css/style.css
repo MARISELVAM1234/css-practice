@@ -1,0 +1,53 @@
+.box-shadow{
+    width: 400px;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    border: 2px solid;
+    padding:   20px;
+    line-height: 20px;
+    word-spacing: 3px;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px wheat;
+    background-color: black;
+    color: white;
+    /* box-shadow: 10px 10px 8px #888888; */
+    box-shadow: 3px 3px 8px 2px red inset;
+    /* box-shadow: 5px 10px 20px #888888 inset; */
+   
+}
+
+.filter-img{
+    text-align: center;
+}
+.filter-img h1{
+     font-size: 25px;
+     margin: 30px ;
+     filter: blur(0.8px);
+    filter: brightness();
+}
+img{
+
+   /* filter: none;
+filter: blur(3px); */
+  /* 2 .default value 0px  */
+/* filter: brightness(0%);  */
+ /* 3. default value 100% */
+ /* filter: contrast(30%);   */
+  /* 4. default value 100% */
+/* filter: grayscale(100%);   */
+ /* 5. default value 0 */
+filter: hue-rotate(90deg);    
+ /* 6.  0deg is defalut color */
+ /* filter: opacity(1);     */
+ /* 7.default value    */
+ /* filter: saturate(20); */
+ /* 8. default value 1 */
+/* filter: invert(20%); */
+ /* 9.default  value is  0%  */
+ /* filter: sepia(30%); */
+/* 10.default value is 0% */
+/* filter: drop-shadow(8px 8px 10px red); */
+
+}
+/* x axis left right */
